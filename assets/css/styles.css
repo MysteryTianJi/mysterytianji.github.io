@@ -1,0 +1,22 @@
+/* Container will be the parent flexbox */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/* Main content area */
+.main-content {
+  width: 70%; /* Occupy 70% of the width */
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding doesn't affect width calculation */
+}
+
+/* Sidebar area */
+.sidebar {
+  width: 28%; /* Occupy 28% of the width */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
