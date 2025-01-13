@@ -25,4 +25,6 @@
   background-color: #f4f4f4;
   border-radius: 5px;
   box-sizing: border-box;
+  writing-mode: horizontal-tb;  /* 保证文字方向是水平 */
+  transform: none;
 }

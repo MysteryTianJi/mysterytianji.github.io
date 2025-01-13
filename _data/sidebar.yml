@@ -3,7 +3,7 @@ links:
   - name: "首页"
     url: "/"
   - name: "教资"
-    url: "/TeacherCertification.md"
+    url: "/TeacherCertification.html"
   - name: "讨工作"
     url: "/BegForALiving"
 
