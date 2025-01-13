@@ -30,4 +30,7 @@
   /* 进一步确保没有其他样式影响 */
   overflow-wrap: break-word;  /* 防止文字超出容器 */
   white-space: normal;       /* 确保换行正确 */
+  
+  display: flex;  /* 使用 flexbox 布局 */
+  flex-direction: column;  /* 垂直排列 */
 }
