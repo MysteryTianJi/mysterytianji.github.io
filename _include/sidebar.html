@@ -1,0 +1,8 @@
+<div class="sidebar">
+  <h3>{{ site.data.sidebar.title }}</h3>
+  <ul>
+    {% for link in site.data.sidebar.links %}
+      <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
