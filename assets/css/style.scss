@@ -25,6 +25,9 @@
   background-color: #f4f4f4;
   border-radius: 5px;
   box-sizing: border-box;
-  writing-mode: horizontal-tb;  /* 保证文字方向是水平 */
-  transform: none;
+  writing-mode: horizontal-tb !important;  /* 强制文字水平显示 */
+  transform: none !important;
+  /* 进一步确保没有其他样式影响 */
+  overflow-wrap: break-word;  /* 防止文字超出容器 */
+  white-space: normal;       /* 确保换行正确 */
 }
